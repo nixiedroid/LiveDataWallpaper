@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".preferences.PreferencesActivity">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView
+                android:id="@+id/messageText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/open_weather_map_api_key_static"
+                android:textSize="18sp"
+                android:textColor="#fFFFFF"
+        />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="32"
+                android:id="@+id/APIEditText"
+                android:maxLines="1"
+                android:textAllCaps="true"
+                android:maxLength="32"
+                android:layout_weight="1"
+                android:hint="@string/api_key_hint_static"
+                android:autofillHints=""/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button
+                android:id="@+id/apiKeySetButton"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/button_set_api_key"
+        />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button
+                android:id="@+id/permissionButton"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/button_location_dialog"
+        />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView
+                android:id="@+id/weatherCondition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unknown_static"
+        />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView
+                android:id="@+id/curLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unknown_static"
+        />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView
+                android:id="@+id/weatherUpdateTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unknown_static"
+        />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button
+                android:id="@+id/updateWeatherNow"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/button_update_weather"
+        />
+    </LinearLayout>
+</LinearLayout>
