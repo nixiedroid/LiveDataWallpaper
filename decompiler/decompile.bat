@@ -29,6 +29,9 @@ set apk_hash=%%F
 if "!apk_hash!"=="8e8338f55ffa86593fd8629356774b1523586b00" (
 goto label_decomile_apk
 ) 
+if "!apk_hash!"=="6449632c2a75476097c8e4d22a6b597be6d623ae" (
+goto label_decomile_apk
+)
 echo. invalid apk file. 
 echo. Required apk with MD5: 8e8338f55ffa86593fd8629356774b1523586b00 
 pause
