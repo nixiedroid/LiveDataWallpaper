@@ -8,17 +8,17 @@
 #sha256#src\main\java\com\ustwo\lwp\util\ColUtil.java#1970.01.01@00.00:00
 D7061ACF1D35570421287C29F613516029AFEB26D47078597ED7DAC387C1E0A2 *src\main\java\com\ustwo\lwp\util\ColUtil.java
 #sha256#src\main\java\com\ustwo\lwp\util\MathUtil.java#1970.01.01@00.00:00
-9E2D5E5E5D349B12F98C9647257BA19CA010F78340F9829A1B4ECE3C139BB36D *src\main\java\com\ustwo\lwp\util\MathUtil.java
+FA9440308E103CC059437A6D74A3A8E9011294D2F76EABECF683806CAE2A370A *src\main\java\com\ustwo\lwp\util\MathUtil.java
 #sha256#proguard-rules.pro#1970.01.01@00.00:00
-56FD960CF225F6CA40F982B13A5DBB0D8BC3DFDE13FF76422825C6070D0A1890 *proguard-rules.pro
+A83EF7A87A1880B27E91374808D5C26717FEF85673BE0BCDE2015A63662A9867 *proguard-rules.pro
 #sha256#src\main\java\com\ustwo\lwp\util\Util.java#1970.01.01@00.00:00
-F666681EE431C537CC91775472BDB8DCBE1EDAA029317120420BD4854A9EDAA8 *src\main\java\com\ustwo\lwp\util\Util.java
+ED2DBAD6750CB4EA16EA0FFE56105E5B6703D69459BC41FCC9B186F8381D1CC5 *src\main\java\com\ustwo\lwp\util\Util.java
 #sha256#build.gradle.kts#1970.01.01@00.00:00
-C74C63A2B16DC1B16DEA6C514BEF7A706E667A4A789D98BE8014FE59213AB054 *build.gradle.kts
+8B680B2C8DBF50CF9D9422171319AA5AC8CECB12B46F7287EEA51A799E5F98EC *build.gradle.kts
 #sha256#src\main\res\layout\preferences_activity.xml#1970.01.01@00.00:00
 11AB927EBE89D58BDA86CC99428C500133349DD200B521FF856C27F8A5F35608 *src\main\res\layout\preferences_activity.xml
 #sha256#src\main\AndroidManifest.xml#1970.01.01@00.00:00
-452E6C6EBAEFC9A7ADE834D479F4EAB44DE3BC4F5EF2296335A750EB5B730F07 *src\main\AndroidManifest.xml
+3A77637BBE065195E3C312213B8E47D665FEFC8FE6E0B04BD38535B9F8176DC1 *src\main\AndroidManifest.xml
 #sha256#src\main\res\values\styles.xml#1970.01.01@00.00:00
 FB1774820F4151CCA194CB1519F4C1295CD0A3112D0C87287F70A2F927206C55 *src\main\res\values\styles.xml
 #sha256#src\main\res\drawable-nodpi\orbit_gradient_62_light_1440.png#1970.01.01@00.00:00
@@ -42,7 +42,7 @@ E53DBF3F4BF19483E32A8A1D606B852065EDDED47ABE67F752E1FE1C8D6B80F2 *src\main\res\d
 #sha256#src\main\res\drawable-nodpi\timelapse_bottom_gradient_1440.png#1970.01.01@00.00:00
 390F8016E4301D028ADB34266342F3B302AB078205D442BFA88DAD5F66394D89 *src\main\res\drawable-nodpi\timelapse_bottom_gradient_1440.png
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\timelapse\LowerGradientLayer.java#1970.01.01@00.00:00
-023AF2FFBE980AF630C5C07E1D0273AD05E9B26B9305D6D7B7E738DD79BCE02A *src\main\java\com\ustwo\lwp\wallpapers\timelapse\LowerGradientLayer.java
+CF9F5E414036E32A52024A6CD69F4A4539D501710815A8C7E7B0BE8E5C13CC6A *src\main\java\com\ustwo\lwp\wallpapers\timelapse\LowerGradientLayer.java
 #sha256#src\main\res\drawable-nodpi\timelapse_top_gradient_1080.png#1970.01.01@00.00:00
 A03710B8D21595670734AFBABEC0A12B63A9A69AF475773F3307FC061E0DF971 *src\main\res\drawable-nodpi\timelapse_top_gradient_1080.png
 #sha256#src\main\res\raw\timelapse_vertex_shader.glsl#1970.01.01@00.00:00
@@ -50,7 +50,7 @@ A03710B8D21595670734AFBABEC0A12B63A9A69AF475773F3307FC061E0DF971 *src\main\res\d
 #sha256#src\main\res\drawable-nodpi\timelapse_top_gradient_1440.png#1970.01.01@00.00:00
 6B60F75510210529674A929466BE0616F4C1FB793C60DF351AB3C3A482F88783 *src\main\res\drawable-nodpi\timelapse_top_gradient_1440.png
 #sha256#src\main\java\com\ustwo\lwp\util\gl\VertexArray.java#1970.01.01@00.00:00
-BCCF9C994BDC05DDA02DFD64AB5F159D0C5EED33AED313D321304FD809B3D206 *src\main\java\com\ustwo\lwp\util\gl\VertexArray.java
+3BC0CD546058D2D948743693120C11DC4464D100B93797BF0D18871984128915 *src\main\java\com\ustwo\lwp\util\gl\VertexArray.java
 #sha256#src\main\res\drawable-xxxhdpi\orbit2_thumb.png#1970.01.01@00.00:00
 6EFAA902FCAF3417FF0DC1128C0D6F01913E4666990608A563C80BE1C0706F7D *src\main\res\drawable-xxxhdpi\orbit2_thumb.png
 #sha256#src\main\res\drawable-nodpi\white_pixel.png#1970.01.01@00.00:00
@@ -66,7 +66,7 @@ BCCF9C994BDC05DDA02DFD64AB5F159D0C5EED33AED313D321304FD809B3D206 *src\main\java\
 #sha256#src\main\res\drawable-xxxhdpi\shadow1_thumb.png#1970.01.01@00.00:00
 9D764D2FDC1225C34728B97B6CB569E1396215274CD8167A0A5C2801A9398498 *src\main\res\drawable-xxxhdpi\shadow1_thumb.png
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\base\UtWallpaperService.java#1970.01.01@00.00:00
-AA3F0B136A47AF0698A05DAF781B11A4B563E0166F587F99DF4116FC812DB02C *src\main\java\com\ustwo\lwp\wallpapers\base\UtWallpaperService.java
+E532551A6AEA3CD560E87AF1912053AA4674A6C0404B961B9A34F0F304DE11B6 *src\main\java\com\ustwo\lwp\wallpapers\base\UtWallpaperService.java
 #sha256#src\main\res\drawable-xxxhdpi\shadow2_thumb.png#1970.01.01@00.00:00
 AFAB03FD25E2627E96FF4D335E11933124622515172683F2E2A3813B9A03C6ED *src\main\res\drawable-xxxhdpi\shadow2_thumb.png
 #sha256#src\main\res\drawable-xxxhdpi\shadow3_thumb.png#1970.01.01@00.00:00
@@ -86,7 +86,7 @@ B66576FAF65B123FE62BE23EECD93FAF256AD008C78A2F8CB41F447CAA009AB7 *src\main\res\d
 #sha256#src\main\res\mipmap-xxhdpi\ic_launcher.png#1970.01.01@00.00:00
 D3AE909287BD05DA576694FDF6A2081B298F09BAAC50B5B0D591083244A9CEBC *src\main\res\mipmap-xxhdpi\ic_launcher.png
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\timelapse\UpperGradientLayer.java#1970.01.01@00.00:00
-9422C208117863916FFC48F52B85E9EDB77C08E2A49DEAACB09214FFFC83621E *src\main\java\com\ustwo\lwp\wallpapers\timelapse\UpperGradientLayer.java
+D2B9730282A7DA6FE07290ED5AE0E2558DBC6A56F6A1B4D23F73AEFB52438677 *src\main\java\com\ustwo\lwp\wallpapers\timelapse\UpperGradientLayer.java
 #sha256#src\main\res\mipmap-hdpi\ic_launcher.png#1970.01.01@00.00:00
 4384D9E4E5D5EB24AA2CE48D21D486659D314FDECB65ABD9A6C2EE4A9870285D *src\main\res\mipmap-hdpi\ic_launcher.png
 #sha256#src\main\res\mipmap-xxxhdpi\ic_launcher.png#1970.01.01@00.00:00
@@ -100,13 +100,13 @@ D2C57EF44CA92374B76C92494097E8EBA9CB7B0395C02E8CE2A3C8CABA51C17A *src\main\res\m
 #sha256#src\main\res\raw\orbit_fragment_shader_2.glsl#1970.01.01@00.00:00
 C1192C4DD62828441FBD331D2AE26B8C29269D0F950B638688E74AB12168FEFD *src\main\res\raw\orbit_fragment_shader_2.glsl
 #sha256#src\main\java\com\ustwo\lwp\App.java#1970.01.01@00.00:00
-5E3BD860E4A85954C2F4631E34791DF1EFBDC97F4B002ADF47B24338971E8E72 *src\main\java\com\ustwo\lwp\App.java
+A8AFD80494DA46F942BA09AD2CB63C5AC2A429B83B479249BE1DF6F47FB0029E *src\main\java\com\ustwo\lwp\App.java
 #sha256#src\main\res\raw\orbit_original_fragment_shader.glsl#1970.01.01@00.00:00
 FADC1A4A4D5CA03793EF7350BFC4F1B3BB24E1753FC158E9132AB6BA32CC1A58 *src\main\res\raw\orbit_original_fragment_shader.glsl
 #sha256#src\main\res\raw\shadow_vertex_shader.glsl#1970.01.01@00.00:00
 3524EFB6305F289E8240FA4B6E983563C50F87912A7144CA29E9A8CBF01CEC25 *src\main\res\raw\shadow_vertex_shader.glsl
 #sha256#src\main\java\com\ustwo\lwp\util\AnimFloat.java#1970.01.01@00.00:00
-7D609D265877CEE72D70CE1AF752A2C3BFF4FF742183EA7B849ECEA31C4F10EF *src\main\java\com\ustwo\lwp\util\AnimFloat.java
+DE6C494F5A269ACA49968FCFDA05EA13A2C72ED0CABB6AE2D00A1EB348D8A966 *src\main\java\com\ustwo\lwp\util\AnimFloat.java
 #sha256#src\main\res\raw\timelapse_fragment_shader.glsl#1970.01.01@00.00:00
 D217BB809886584890092B1A7068A4AB4D5813C6A9DE73B644CD7BC3AE58E85E *src\main\res\raw\timelapse_fragment_shader.glsl
 #sha256#src\main\res\xml\shadow6_wallpaper.xml#1970.01.01@00.00:00
@@ -114,13 +114,13 @@ D217BB809886584890092B1A7068A4AB4D5813C6A9DE73B644CD7BC3AE58E85E *src\main\res\r
 #sha256#src\main\res\values\strings.xml#1970.01.01@00.00:00
 1F63C1D573EAC8EBA54505030D269EA41BE8EF85242273859BE5F712C1D6D019 *src\main\res\values\strings.xml
 #sha256#src\main\java\com\ustwo\lwp\util\Terps.java#1970.01.01@00.00:00
-6ED536AC84E748BE9D80C4516DC61D78726CC80AF14CF46E891DA36086920A91 *src\main\java\com\ustwo\lwp\util\Terps.java
+BE7B7933D9182D32F3F421031176B304D5B2FA1A62F67697C2C2E6061344A4F8 *src\main\java\com\ustwo\lwp\util\Terps.java
 #sha256#src\main\java\com\ustwo\lwp\TimezoneChangedReceiver.java#1970.01.01@00.00:00
-AE3C093EFD85D81A06FFC256724584A506BF658A6481B467F2DBD279FC255D69 *src\main\java\com\ustwo\lwp\TimezoneChangedReceiver.java
+3B8DAAC75C665A1F055C58ACF763B667F05D7A974A7F66126FE111338DF25D69 *src\main\java\com\ustwo\lwp\TimezoneChangedReceiver.java
 #sha256#src\main\res\xml\orbit1_wallpaper.xml#1970.01.01@00.00:00
 E500CA6A56AE2719D8F9A3D6513302A3F77C7929216EB952E33287329F2248C3 *src\main\res\xml\orbit1_wallpaper.xml
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowWallpaperService5.java#1970.01.01@00.00:00
-8377944FC075CD75AB59AB2522D47D15068BBDF1D2104F53A24963DF0A502ADB *src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowWallpaperService5.java
+31A48B1B8EBC02051EC04BA327A946BD1BCEBE06A4F492B8919EBE6FFFC9C215 *src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowWallpaperService5.java
 #sha256#src\main\res\xml\orbit2_wallpaper.xml#1970.01.01@00.00:00
 4C3606B87A91199364DFCA20ABC7029DBEC3C0EAEA9B3E374DB4059B7D68E6BA *src\main\res\xml\orbit2_wallpaper.xml
 #sha256#src\main\res\xml\orbit3_wallpaper.xml#1970.01.01@00.00:00
@@ -132,109 +132,109 @@ E500CA6A56AE2719D8F9A3D6513302A3F77C7929216EB952E33287329F2248C3 *src\main\res\x
 #sha256#src\main\res\xml\shadow3_wallpaper.xml#1970.01.01@00.00:00
 7BD06814DC987CE53EE49C309265B1BF1CC472234B9C60B90389AC10E5CC2106 *src\main\res\xml\shadow3_wallpaper.xml
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowTestSettings.java#1970.01.01@00.00:00
-57BEFD6AAA6F3C0189EA69E629E9C4E79CC7AD8ED9A2E63841E19DC53E1051DD *src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowTestSettings.java
+77ED45F8265703FC1DD27267F6D7A47EA05907E601DA21771F9FB8A7409C6503 *src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowTestSettings.java
 #sha256#src\main\res\xml\shadow5_wallpaper.xml#1970.01.01@00.00:00
 A0CA62CCD618677430E34A4E64D24BC553ADF673906124EB25280340E5EBBDBF *src\main\res\xml\shadow5_wallpaper.xml
 #sha256#src\main\res\xml\timelapse_wallpaper.xml#1970.01.01@00.00:00
 3E58DCC0EB78647BF509329EC11F6F23AEB17753B2907400090AE665E20829CD *src\main\res\xml\timelapse_wallpaper.xml
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\util\WeatherManager.java#1970.01.01@00.00:00
-6F0F3D8A3D0D735EC3E2F50B01D024B0BAEAE762BBE462E13BFFF8FE8689775A *src\main\java\com\ustwo\lwp\wallpapers\util\WeatherManager.java
+638EAE37F6FAAF67E1FC84101A5E49A16C80D3953E4E5215B7A9D547E1575BBA *src\main\java\com\ustwo\lwp\wallpapers\util\WeatherManager.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\orbit\OrbitWallpaperService2.java#1970.01.01@00.00:00
-1427EE621E4D2FDB3209C7D790C3B72B2653F0A37688132C95665B8DA5994BD0 *src\main\java\com\ustwo\lwp\wallpapers\orbit\OrbitWallpaperService2.java
+EE8F6F7B766A7BDF3909A122749B82CE12E4552A0E117D3D496727E54C84D470 *src\main\java\com\ustwo\lwp\wallpapers\orbit\OrbitWallpaperService2.java
 #sha256#src\main\java\com\ustwo\lwp\FlavorTypeOverride.java#1970.01.01@00.00:00
-D415B7F9119B0822C63DA7CEF84A62503660E3BA82A48E04DAD9E42554BE2F27 *src\main\java\com\ustwo\lwp\FlavorTypeOverride.java
+D806355425C50E2E36E67B78D72A85B18F6054E8CBC37198279BA53DD5164FDD *src\main\java\com\ustwo\lwp\FlavorTypeOverride.java
 #sha256#src\main\java\com\ustwo\lwp\util\L.java#1970.01.01@00.00:00
-90A9A35539D2AF13F2B8713AA55FBFA64B785CF78E321D07EEF5414847AC67D9 *src\main\java\com\ustwo\lwp\util\L.java
+C95D3231C4EFE975106B2D93C80EC7BEE938DAE498A686E7BB51C9AD3828BFF2 *src\main\java\com\ustwo\lwp\util\L.java
 #sha256#src\main\java\com\ustwo\lwp\util\Vec3f.java#1970.01.01@00.00:00
-B85465C0564E772FC110C8FE9834B34462668A6AC38FE5D2409B99505D0B0F8D *src\main\java\com\ustwo\lwp\util\Vec3f.java
+6CD29B13D471ED8C9614816393A76BFD7C11DF9EEF1A4107042DD3A61330A933 *src\main\java\com\ustwo\lwp\util\Vec3f.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\Constants.java#1970.01.01@00.00:00
-9452DB810B87AA19F29AB52BCC8986ADF4C9535EB4D5F76076B6702121DBF2C3 *src\main\java\com\ustwo\lwp\wallpapers\Constants.java
+AC8ED7224D6CDDA001AB0EB2D253CE5AEAD870DBCC9EDF90DAB14769A0A85F4A *src\main\java\com\ustwo\lwp\wallpapers\Constants.java
 #sha256#src\main\java\com\ustwo\lwp\util\gl\GlUtil.java#1970.01.01@00.00:00
-3522665503A1ACBC56541FF16BD11B7E99780E9D0EAE4D6B0115BA4CDA799A10 *src\main\java\com\ustwo\lwp\util\gl\GlUtil.java
+1AC46690CAC1F412DB4FEC155D1071458FC21D3250B68E35818D3C88C0CD0C15 *src\main\java\com\ustwo\lwp\util\gl\GlUtil.java
 #sha256#src\main\java\com\ustwo\lwp\util\gl\ShaderProgram.java#1970.01.01@00.00:00
-270D1DCA210EC4E1F87972323F6B72E74627CFAF908473EABB6C7D022124DFDD *src\main\java\com\ustwo\lwp\util\gl\ShaderProgram.java
+906DA2A2431B68EEA9F5B610C8A4346A52CB9C2FB2E975CF326BAED13841004B *src\main\java\com\ustwo\lwp\util\gl\ShaderProgram.java
 #sha256#src\main\java\com\ustwo\lwp\util\gl\ShaderUtil.java#1970.01.01@00.00:00
-D99506AB91AE8D50D23E7335BBC55CC0E2EA0BBAE883C2AA34B9EF004078F698 *src\main\java\com\ustwo\lwp\util\gl\ShaderUtil.java
+54EFA55A8A23F8518E9CDD57C79C7E954B364FAE2819E8436181C2F0E7D562C1 *src\main\java\com\ustwo\lwp\util\gl\ShaderUtil.java
 #sha256#src\main\java\com\ustwo\lwp\util\gl\TextResourceReader.java#1970.01.01@00.00:00
-44F59AF70F97B6ED09B7C5C327B5F4EFBC917FD2BDB11E1CD8F8D6B9B9C30657 *src\main\java\com\ustwo\lwp\util\gl\TextResourceReader.java
+085A26EC16406A2D23AA6886DE0165177AF8BD4C67FEC3F37EE994B80F9332A3 *src\main\java\com\ustwo\lwp\util\gl\TextResourceReader.java
 #sha256#src\main\java\com\ustwo\lwp\util\gl\TextureUtil.java#1970.01.01@00.00:00
-A858C634E671B28FC06CE54DE0DA4EC147D05068714C6C1E2985B9BD0C708B78 *src\main\java\com\ustwo\lwp\util\gl\TextureUtil.java
+FD71EFBFF35372EB582A5CA49476D0C3DBB8CE957BED4D7447B387623475AAFF *src\main\java\com\ustwo\lwp\util\gl\TextureUtil.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\base\DoubleEasyQuad.java#1970.01.01@00.00:00
-4AB1738D8499C868B0AC4905200C2FEE6865FE72EC77F1B22EC1D98E020108EB *src\main\java\com\ustwo\lwp\wallpapers\base\DoubleEasyQuad.java
+E17720569CF7ED3EC31338BF953A449ECE88F3A30D516A30D23996ACB4C7C32D *src\main\java\com\ustwo\lwp\wallpapers\base\DoubleEasyQuad.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\base\EasyQuad.java#1970.01.01@00.00:00
-CFDBD18FB63B461660EB9BB01495362C027BC1A66413DCCC2E6FA06809A9E551 *src\main\java\com\ustwo\lwp\wallpapers\base\EasyQuad.java
+72B28A36FCA9088C0D458DB815CE2F36A0D6540E53CEB0C7E3D35BD525C3A612 *src\main\java\com\ustwo\lwp\wallpapers\base\EasyQuad.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\base\GLWallpaperService.java#1970.01.01@00.00:00
-0D5346BED47293D9156A48EB7423F0AB5EA42E5852163A86F67AF01E97B72C2F *src\main\java\com\ustwo\lwp\wallpapers\base\GLWallpaperService.java
+381DC42E9645DA5A6A2ED7E4A32BF9A370245249D3243F045CE85422D4CF126F *src\main\java\com\ustwo\lwp\wallpapers\base\GLWallpaperService.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\base\Layer.java#1970.01.01@00.00:00
-34F45192C1E8F4CDBBB1A4934B3180E3BEE8B8FF41CDF6DBA68B31E21D878917 *src\main\java\com\ustwo\lwp\wallpapers\base\Layer.java
+41A41BD21FA1B223A731AB44D1E690227E57FB8193964728605DC6CCF628ECF8 *src\main\java\com\ustwo\lwp\wallpapers\base\Layer.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\base\Quad.java#1970.01.01@00.00:00
-25BCFD720BCC9F8F584C807C72198E97AC0F51DC084F2E186A75ADE20AEE787B *src\main\java\com\ustwo\lwp\wallpapers\base\Quad.java
+AD4BFBA9FFACE2057B1ABFC551D675BA21B38A0B71612D9A72A632B065ABAA75 *src\main\java\com\ustwo\lwp\wallpapers\base\Quad.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\base\RenderNode.java#1970.01.01@00.00:00
-57351289AEE76AC50E95B3E6C29FA7D3FDEA8F9E7FE79B8B153B2D1DB721F37F *src\main\java\com\ustwo\lwp\wallpapers\base\RenderNode.java
+2E8C4A7B6368C6D198C2D5F7FC39E7692DF07AA2DA44DA453C547EADEB4ABE1E *src\main\java\com\ustwo\lwp\wallpapers\base\RenderNode.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\base\RenderScheduler.java#1970.01.01@00.00:00
-53C4BECFEAEE016537459DDB27DEC9B202380C5AF8B35D99A8B8BCDB659C3C12 *src\main\java\com\ustwo\lwp\wallpapers\base\RenderScheduler.java
+94648695F5634D0FEA41E58AE9D1B79F8778526CE6539D7BBEED31F5501DD024 *src\main\java\com\ustwo\lwp\wallpapers\base\RenderScheduler.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\base\UtRenderer.java#1970.01.01@00.00:00
-5E5547A39F1E3F08DECCBC35431110BD8E63C8DEF19EB2BC336A164A14849CD3 *src\main\java\com\ustwo\lwp\wallpapers\base\UtRenderer.java
+CD676290C4995F35CDF5BE0D69074E8E514E9D79629C0327BDD7BD06F2E34BBC *src\main\java\com\ustwo\lwp\wallpapers\base\UtRenderer.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\orbit\Config.java#1970.01.01@00.00:00
-780B9F8E9862C56776A0124A617114E8F3FE8ECD66771C354B23A7650037B899 *src\main\java\com\ustwo\lwp\wallpapers\orbit\Config.java
+1541479DC42AC01EE43F1E2608BCB16720FF7ADD89785AA8C9E8353CDA4B2C9A *src\main\java\com\ustwo\lwp\wallpapers\orbit\Config.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\orbit\Configs.java#1970.01.01@00.00:00
-77E676AE225794FBBBBCC3FC380603805EE1AE52D83C17C6D5A297D49C3BD434 *src\main\java\com\ustwo\lwp\wallpapers\orbit\Configs.java
+6A4EF637BDD6C0135A6747259E1E6AD36690A8AED26D554553329E98CCD9893C *src\main\java\com\ustwo\lwp\wallpapers\orbit\Configs.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\orbit\OrbitProgram1.java#1970.01.01@00.00:00
-E6517391F29FD3FC551F3B1AF16733FAE9165D1E7670AEC059E2D20775292122 *src\main\java\com\ustwo\lwp\wallpapers\orbit\OrbitProgram1.java
+E8B55FB9E57780EFC00D511FDC40AA488DE26A313596B9B7CC318B0F498724F4 *src\main\java\com\ustwo\lwp\wallpapers\orbit\OrbitProgram1.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\orbit\OrbitProgram2.java#1970.01.01@00.00:00
-22556CC1A36B5C7C630C937EB7F13DC55CFF5FA63E6AABA57977E03DB221FB16 *src\main\java\com\ustwo\lwp\wallpapers\orbit\OrbitProgram2.java
+DB94088C751698A638017233B857961460979491874A40FC82B16A2521CD9E14 *src\main\java\com\ustwo\lwp\wallpapers\orbit\OrbitProgram2.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\orbit\OrbitPrograms.java#1970.01.01@00.00:00
-B1E78356B17A9D8FA28E747073756AA567C73FD6523C9BE029D95E5BD03547AE *src\main\java\com\ustwo\lwp\wallpapers\orbit\OrbitPrograms.java
+9AC70687F9A8640F56C52F5D189373FBD466232F5D6169EB10502D0AFB62183E *src\main\java\com\ustwo\lwp\wallpapers\orbit\OrbitPrograms.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\orbit\OrbitRenderer.java#1970.01.01@00.00:00
-4405032B1F205096298AB55B724E08F9AEF0FFD291508D56088F9F3AAB3AE19D *src\main\java\com\ustwo\lwp\wallpapers\orbit\OrbitRenderer.java
+82F8AE1DF85E8A2EBF786E6F92979B4BA6651EEA1C52C045A9EA8F2E48FA0FAF *src\main\java\com\ustwo\lwp\wallpapers\orbit\OrbitRenderer.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\orbit\OrbitTestSettings.java#1970.01.01@00.00:00
-513470C2BE97DC1348D7EFD915AE2F88AC4464C3E9D3A1C57512F00C7563247C *src\main\java\com\ustwo\lwp\wallpapers\orbit\OrbitTestSettings.java
+EFECA9C9F148AF0CF57435497BC71C2BD7B5C2ECFF0513B69AE37F9D94289A0D *src\main\java\com\ustwo\lwp\wallpapers\orbit\OrbitTestSettings.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\orbit\OrbitWallpaperService.java#1970.01.01@00.00:00
-862052106ED6EC92DAB7C98B2D7976266106DC60843C97278645F4270576C6DF *src\main\java\com\ustwo\lwp\wallpapers\orbit\OrbitWallpaperService.java
+552806D138F7B95023B8EC4DED80526D1583AD299B17CF4918A8D82AF6226B30 *src\main\java\com\ustwo\lwp\wallpapers\orbit\OrbitWallpaperService.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\orbit\OrbitWallpaperService3.java#1970.01.01@00.00:00
-91E8807175CE61937DAC103E47C6C65A94F3E7E94EF6B0A8339D5750FAE4DEDC *src\main\java\com\ustwo\lwp\wallpapers\orbit\OrbitWallpaperService3.java
+92593090FA0B74FBE6B26226ED42810777D28EB2FF748D414C1D34630A59B661 *src\main\java\com\ustwo\lwp\wallpapers\orbit\OrbitWallpaperService3.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\orbit\Time.java#1970.01.01@00.00:00
-747F35C29DAC50FE754150BECF02ACF87B03BB4C8DC94941D850FBC97B46DDD2 *src\main\java\com\ustwo\lwp\wallpapers\orbit\Time.java
+30EA23EEE0A07A412ED7AD9B2F06202B31787E4D5610AE61D49E795946192C5D *src\main\java\com\ustwo\lwp\wallpapers\orbit\Time.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\shadow\Config.java#1970.01.01@00.00:00
-4E92413354C1EE5AFC56962EADF36B05C69E27B8AF02A1B38E8E0F3517871750 *src\main\java\com\ustwo\lwp\wallpapers\shadow\Config.java
+8C47785BB21E41FED72FAF7A2AFF9B8EA14BD5DE0D202340CE31D4D4B452F093 *src\main\java\com\ustwo\lwp\wallpapers\shadow\Config.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\shadow\Configs.java#1970.01.01@00.00:00
-A7EC2CAA13F1AB6874E4168F8E9F549EC5302962FDC99C751D4DCADECC14AA55 *src\main\java\com\ustwo\lwp\wallpapers\shadow\Configs.java
+F7995C0606AE6EE38E4EA998991C3CDAB9BD7C74A6CCF04DFDE4010F4BF6BA24 *src\main\java\com\ustwo\lwp\wallpapers\shadow\Configs.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowColors.java#1970.01.01@00.00:00
-B5C89B29714C0936CB970FCCD00F454FFDA3489CF88B2EB5519F75C658998F64 *src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowColors.java
+3FF101B73B59B67FE53DAE124998F46E733E486C0D94F65305FFD08CB59966AD *src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowColors.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowProgram.java#1970.01.01@00.00:00
-E605E35479865B1C032620F168DA106E658CF5E83C3ECED21972950A6732E118 *src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowProgram.java
+6DC51BB12416E3C6B586F77469E24E97D7D0EC5BC1D29B9B5EB15274F0BFE460 *src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowProgram.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowRenderer.java#1970.01.01@00.00:00
-33E03CE1534AC469384EA749E3022CCDE0F104C037F90ABCAA05E1E9E6311A9D *src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowRenderer.java
+47F73CA744D22F9D98E2E3A7F48D3694161A733FD317FAECB66FB07B8827B126 *src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowRenderer.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowWallpaperService.java#1970.01.01@00.00:00
-C5D59F2512D4849480D2A00A798D918CAF5C0A0E83BF7A857B5DA3BBDBBE2334 *src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowWallpaperService.java
+477EFB77190234BAAD64BA53D86A3F88C0CE823E61758DE9FC41C1C58AC4C463 *src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowWallpaperService.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowWallpaperService1.java#1970.01.01@00.00:00
-98F7E07114E563BFA917578310644C303B383306CB113DFB448F3EAA59E8CFB7 *src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowWallpaperService1.java
+5D11B44B2E44226CF3D549F51A0924AD0A7405C863D4DC2E04720337B367227A *src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowWallpaperService1.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowWallpaperService2.java#1970.01.01@00.00:00
-155DABD16289B3D4B2399ED88276459589B28C14CACE29E2AD0058BE55D593D6 *src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowWallpaperService2.java
+F4D264C7701B338136F6F760E556B80D43A536F161F8F4E0B9781BFD34FBCBDD *src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowWallpaperService2.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowWallpaperService3.java#1970.01.01@00.00:00
-799988CC47C8BE66292981A1D9414CC1873B76A1C9FD11976862116F6300B393 *src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowWallpaperService3.java
+47BAA8B8BE9CE0C2AFBB81F0CE8D020696F7D74A2C715CEC63BA9CA79962D0BC *src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowWallpaperService3.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowWallpaperService4.java#1970.01.01@00.00:00
-E50F663C7E80700E5A61B6244F519BE7B3970EC23D3F15A7261F43C18A6D862F *src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowWallpaperService4.java
+A5919345309BBDBFF46E3DCF4959ED2D22479C608795DA699F9071D9743EFEA2 *src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowWallpaperService4.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowWallpaperService6.java#1970.01.01@00.00:00
-4FA96EC3626CB31EC0DFA0309706224FC7C2135D95D6F22F9C3FB8767A5A66F4 *src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowWallpaperService6.java
+ADD5723C4A5D930E01BFB62B561AE45CE2D9D49D3086A8A963924D3038A5AFB9 *src\main\java\com\ustwo\lwp\wallpapers\shadow\ShadowWallpaperService6.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\timelapse\Gradient.java#1970.01.01@00.00:00
-919A22FBDC9DE213C1A2F5E6393D34689B89369FFF1A58CABE2EA0BB8B300FD3 *src\main\java\com\ustwo\lwp\wallpapers\timelapse\Gradient.java
+A07988F26FDEED7F2FF8076FF5ED2A2350E66AE64D1C9863C3CCA477E57E1A30 *src\main\java\com\ustwo\lwp\wallpapers\timelapse\Gradient.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\timelapse\GradientSet.java#1970.01.01@00.00:00
 697D4C558FA9325E4E562D953D2AB7A8561FD7F1668D9D0B4661F089ADBC2628 *src\main\java\com\ustwo\lwp\wallpapers\timelapse\GradientSet.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\timelapse\GradientSetManager.java#1970.01.01@00.00:00
-B5D9A33709629DC17C35A030EE3BA25A01CA95E75C126074E07E11E7D1AEE44C *src\main\java\com\ustwo\lwp\wallpapers\timelapse\GradientSetManager.java
+D981F334A1066A47778930B3C10F9504318E562450BB8ED257BFE6778FA9A938 *src\main\java\com\ustwo\lwp\wallpapers\timelapse\GradientSetManager.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\timelapse\TimelapseProgram.java#1970.01.01@00.00:00
-4A545BB1B90DA922492A07F19B1A8FDAB43BD45A207CD09413591052DA9E4C65 *src\main\java\com\ustwo\lwp\wallpapers\timelapse\TimelapseProgram.java
+B9573983CBC519B40521A5B7F3B928F98AFEB062EC8DA95168861F1CE1ACDCB8 *src\main\java\com\ustwo\lwp\wallpapers\timelapse\TimelapseProgram.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\timelapse\TimelapseRenderer.java#1970.01.01@00.00:00
-916D408B97182276141E0057FF34F27F73606C7C472C7D2A275C90E2B065BFB5 *src\main\java\com\ustwo\lwp\wallpapers\timelapse\TimelapseRenderer.java
+33FFA0D7C8A1D6C8CF872EFB200F1171F2BEB124485EEA031F9966F9E5712E43 *src\main\java\com\ustwo\lwp\wallpapers\timelapse\TimelapseRenderer.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\timelapse\TimelapseTestSettings.java#1970.01.01@00.00:00
-A4936A29E78FF470E7734D8D769C418F897FC267370B4CC81C3FDBC19870EBB1 *src\main\java\com\ustwo\lwp\wallpapers\timelapse\TimelapseTestSettings.java
+E418618F3E25CE08D8B0676B2A043827EA6569753ECE66B65ED479A2DFD2FD80 *src\main\java\com\ustwo\lwp\wallpapers\timelapse\TimelapseTestSettings.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\util\owm\OWMWeatherCode.java#1970.01.01@00.00:00
 0E103D98C72C4E3CD097AE285A5478ED712B7D61BAB52647CB989FFD57A32C53 *src\main\java\com\ustwo\lwp\wallpapers\util\owm\OWMWeatherCode.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\util\AbstractSunriseUtil.java#1970.01.01@00.00:00
-0D2602F7B51B547157DC9A497C6CC66F42DACA23D0448C2BB734C21ED083DC65 *src\main\java\com\ustwo\lwp\wallpapers\util\AbstractSunriseUtil.java
+9C62E98A3DD4DDFF03EA2912C330CF5DF5C00F1C96393521EEFC8681CF118C52 *src\main\java\com\ustwo\lwp\wallpapers\util\AbstractSunriseUtil.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\timelapse\TimelapseWallpaperService.java#1970.01.01@00.00:00
-3714619DA027980562B4E2533A9A1C79AA43C3001A9D1ABF5EE40079BAAAC3F0 *src\main\java\com\ustwo\lwp\wallpapers\timelapse\TimelapseWallpaperService.java
+7013346947B4B279D610064F254002D3549300ABE9BFC8A0F7BE621167109A3C *src\main\java\com\ustwo\lwp\wallpapers\timelapse\TimelapseWallpaperService.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\util\AbstractWeatherManager.java#1970.01.01@00.00:00
 EBDB47204EDF0DBF13B836337C169CBB00EAE654915110E98A80141F171F0760 *src\main\java\com\ustwo\lwp\wallpapers\util\AbstractWeatherManager.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\util\CalendarAstronomer.java#1970.01.01@00.00:00
@@ -244,11 +244,11 @@ EBDB47204EDF0DBF13B836337C169CBB00EAE654915110E98A80141F171F0760 *src\main\java\
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\util\LocationManger.java#1970.01.01@00.00:00
 3C228ADF15F759A93AB578C96847E815160420E4235259C41A10298C601A1CBD *src\main\java\com\ustwo\lwp\wallpapers\util\LocationManger.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\util\SunriseUtil.java#1970.01.01@00.00:00
-33F3971C9F98FAD2CC649BFB757BF698AAA4E0422C5EA31BA61D1174C9F43863 *src\main\java\com\ustwo\lwp\wallpapers\util\SunriseUtil.java
+1448F79F8ED4BCE1B9270C80A5684C387B32577BC8E7B32FE83AB56C9D728A4A *src\main\java\com\ustwo\lwp\wallpapers\util\SunriseUtil.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\util\TimeUtil.java#1970.01.01@00.00:00
-A6651D6D03AF997F881DDE519A2A728B0046625C3111DE3CAEEB5E936DC7F3BD *src\main\java\com\ustwo\lwp\wallpapers\util\TimeUtil.java
+4FDFCEEBFE59D3BE7513D0E93F916033874EB78A3530A308BB1D22638E8605EF *src\main\java\com\ustwo\lwp\wallpapers\util\TimeUtil.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\util\WeatherVo.java#1970.01.01@00.00:00
-12EA8EA288D4333CDAF6B7C76FC9B03D86D30BE0B50A052B21155919C1BF4D16 *src\main\java\com\ustwo\lwp\wallpapers\util\WeatherVo.java
+E048A871F9BE274DC8D3EB0F0A7439AE60CCC544AAE52910A034D34E4A104FA4 *src\main\java\com\ustwo\lwp\wallpapers\util\WeatherVo.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\util\owm\HttpUrlConnector.java#1970.01.01@00.00:00
 B0A716B7D017CC3922D4CB9081AB77CC1FE46CD020F5262B1AE358AF5F6A089A *src\main\java\com\ustwo\lwp\wallpapers\util\owm\HttpUrlConnector.java
 #sha256#src\main\java\com\ustwo\lwp\wallpapers\util\owm\OWMConnectorException.java#1970.01.01@00.00:00
