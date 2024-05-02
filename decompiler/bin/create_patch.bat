@@ -17,5 +17,6 @@ echo Aborting
 pause
 goto :EOF
 )
-%working_dir%bin\diff --context=1 --strip-trailing-cr -r %src_original_dir% %src_changed_dir% > %patch_file%
 
+
+%working_dir%bin\diff --context=1 --strip-trailing-cr -r %src_original_dir% %src_changed_dir% > %patch_file%

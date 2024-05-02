@@ -15,5 +15,6 @@
 local.properties
 /app
 /decompiler/*.apk
+/decompiler/new
 /decompiler/app
 /decompiler/tmp

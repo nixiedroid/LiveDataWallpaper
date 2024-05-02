@@ -120,9 +120,10 @@ call :label_check_error
 goto label_remove_empty_dirs
 goto :EOF
 
+
 :label_remove_empty_dirs
 echo. Removing Empty Folders...
-pushd "%working_dir%%output_dir%\res"
+pushd "%working_dir%%output_dir%"
 rem Remove all empty directories
 rem https://superuser.com/questions/39674/recursively-delete-empty-directories-in-windows
 robocopy "%cd%" "%cd%" /S /MOVE >nul
@@ -180,11 +181,11 @@ goto :EOF
 
 :label_add_custom_sources
 echo. Adding Custom Source Files...
-robocopy "%working_dir%%patch_dir%\src" "%working_dir%%output_dir%\src" /s >nul
-copy "%working_dir%%patch_dir%\build.gradle.kts" "%working_dir%%output_dir%" >nul
-copy "%working_dir%%patch_dir%\proguard-rules.pro" "%working_dir%%output_dir%" >nul
-copy "%working_dir%%patch_dir%\.gitignore" "%working_dir%%output_dir%" >nul
-copy "%working_dir%%patch_dir%\checksums.sha256" "%working_dir%%output_dir%" >nul
+robocopy "%working_dir%%patch_dir%\src" "%working_dir%%output_dir%\src" /s > nul
+copy "%working_dir%%patch_dir%\build.gradle.kts" "%working_dir%%output_dir%" > nul
+copy "%working_dir%%patch_dir%\proguard-rules.pro" "%working_dir%%output_dir%" > nul
+copy "%working_dir%%patch_dir%\.gitignore" "%working_dir%%output_dir%" > nul
+copy "%working_dir%%patch_dir%\checksums.sha256" "%working_dir%%output_dir%" > nul
 call :label_check_error
 goto label_move_project_files
 goto :EOF
@@ -193,7 +194,7 @@ goto :EOF
 :label_move_project_files
 echo. Moving Project Files...
 pushd ..
-move "%working_dir%%output_dir%" "%cd%"
+move "%working_dir%%output_dir%" "%cd%" > nul
 popd
 goto label_end_of_file
 goto :EOF
@@ -418,7 +419,7 @@ goto :EOF
 :label_check_error
 IF ERRORLEVEL 1 (
 echo. 
-echo. !!!!!!!!!!!!!!!!
+echo. -------------------------
 echo.
 echo. An error ocurred : %errorlevel%
 echo. Press enter to continue ^(unperdicatable results^)
@@ -426,7 +427,7 @@ echo. Or close the window
 echo.
 echo. =^(
 echo.
-echo. !!!!!!!!!!!!!!!!
+echo. -------------------------
 echo. 
 pause>nul
 )
