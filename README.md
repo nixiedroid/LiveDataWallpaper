@@ -1,10 +1,9 @@
-marlin-qp1a.191005.007.a3-factory-bef66533.zip
-
 ### What is it?
 
 This project provides fixes for closed-source
 live wallpaper from original gogle pixel
 smartphone
+APK extracted from marlin-qp1a.191005.007.a3-factory-bef66533.zip firmware for google pixel XL
 
 ### How to build?
 
