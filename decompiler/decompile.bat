@@ -4,7 +4,7 @@ set exitBeforeApplyingPatches=false
 
 setlocal enabledelayedexpansion
 set working_dir=%~dp0
-set patch_file=patch.txt
+set patch_file=patch
 set output_dir=app
 set patch_dir=patch
 
@@ -177,6 +177,15 @@ goto :EOF
 )
 pushd "%working_dir%%output_dir%"
 "%working_dir%bin\patch" -p1 -i "%working_dir%%patch_dir%\%patch_file%"
+if EXIST "%working_dir%%patch_dir%\%patch_file%1" (
+"%working_dir%bin\patch" -p1 -i "%working_dir%%patch_dir%\%patch_file%1"
+)
+if EXIST "%working_dir%%patch_dir%\%patch_file%2" (
+"%working_dir%bin\patch" -p1 -i "%working_dir%%patch_dir%\%patch_file%2"
+)
+if EXIST "%working_dir%%patch_dir%\%patch_file%3" (
+"%working_dir%bin\patch" -p1 -i "%working_dir%%patch_dir%\%patch_file%3"
+)
 popd
 call :label_check_error
 goto label_add_custom_sources

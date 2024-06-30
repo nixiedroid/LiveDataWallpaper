@@ -29,34 +29,25 @@ public class HttpUrlConnector {
         }
     }
 
-    public static OWMWeatherCode getWeatherCode(String APIKey, double lat, double lon) throws OWMConnectorException {
+    public static Future<OWMWeatherCode> getWeatherCode(String APIKey, double lat, double lon) throws OWMConnectorException {
         ExecutorService exec = Executors.newSingleThreadExecutor();
         //lat={lat}&lon={lon}&appid={API key}
-        final URL url =
-                Util.concatenateURL(
-                Util.concatenateURL(
-                Util.concatenateURL(
-                        API_URL, "lat=" + lat), "lon=" + lon), "appid=" + APIKey);
-        Future<OWMWeatherCode> cod = exec.submit(() -> {
-            HttpURLConnection connection =  createUrlConnection(url);
+        final URL url = Util.UrlBuilder.builder()
+                .concat(API_URL)
+                .concat("lat=" + lat)
+                .concat("lon=" + lon)
+                .concat("appid=" + APIKey)
+                .build();
+        return exec.submit(() -> {
+            HttpURLConnection connection = createUrlConnection(url);
             int weatherId = Util.getWeatherIdFromJson(readInputStream(connection));
             return new OWMWeatherCode(weatherId);
         });
-        OWMWeatherCode responseCode;
-        try {
-            responseCode = cod.get();
-        } catch (InterruptedException | CancellationException e) {
-            throw new OWMConnectorException(e.getMessage());
-        } catch (ExecutionException e){
-            if (e.getCause() != null && e.getCause() instanceof OWMConnectorException) {
-                throw (OWMConnectorException) e.getCause();
-            }
-           throw new OWMConnectorException(e.getMessage());
-        }
-        return responseCode;
     }
 
-    /** @noinspection CharsetObjectCanBeUsed*/
+    /**
+     * @noinspection CharsetObjectCanBeUsed
+     */
     private static String readInputStream(final HttpURLConnection connection) throws OWMConnectorException {
         InputStream inputStream = null;
         try {

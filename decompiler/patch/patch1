@@ -1,0 +1,51 @@
+diff '--context=1' --strip-trailing-cr -r app/src/main/java/com/ustwo/lwp/wallpapers/util/WeatherManager.java new/src/main/java/com/ustwo/lwp/wallpapers/util/WeatherManager.java
+*** app/src/main/java/com/ustwo/lwp/wallpapers/util/WeatherManager.java	Sun Jun 30 11:56:52 2024
+--- new/src/main/java/com/ustwo/lwp/wallpapers/util/WeatherManager.java	Sun Jun 30 11:22:31 2024
+***************
+*** 21,22 ****
+--- 21,26 ----
+  
++ import java.util.concurrent.CancellationException;
++ import java.util.concurrent.ExecutionException;
++ import java.util.concurrent.Future;
++ 
+  public class WeatherManager extends AbstractWeatherManager {
+***************
+*** 27,28 ****
+--- 31,34 ----
+      private OWMWeatherCode weather = null;
++     private Future<OWMWeatherCode> futureWeather = null;
++ 
+      private final BroadcastReceiver apiKeyUpdateReciever = new BroadcastReceiver() {
+***************
+*** 63,71 ****
+          try {
+!             OWMWeatherCode code = HttpUrlConnector.getWeatherCode(API_KEY, lat, lon);
+!             L.v("Got weather " + code.getDescription());
+! 
+!             weather = code;
+          } catch (OWMConnectorException e) {
+              L.e("Error retrieving weather: " + e.getMessage());
+! 
+              weather = null;
+--- 69,88 ----
+          try {
+!             if (futureWeather == null) futureWeather = HttpUrlConnector.getWeatherCode(API_KEY, lat, lon);
+!             if (futureWeather.isDone()){
+!                 try {
+!                     weather =  futureWeather.get();
+!                     L.v("Got weather " + weather.getDescription());
+!                     futureWeather = null;
+!                 } catch (InterruptedException | CancellationException e) {
+!                     throw new OWMConnectorException(e.getMessage());
+!                 } catch (ExecutionException e) {
+!                     if (e.getCause() != null && e.getCause() instanceof OWMConnectorException) {
+!                         throw (OWMConnectorException) e.getCause();
+!                     }
+!                     throw new OWMConnectorException(e.getMessage());
+!                 }
+!             }
+          } catch (OWMConnectorException e) {
+              L.e("Error retrieving weather: " + e.getMessage());
+!             futureWeather = null;
+              weather = null;

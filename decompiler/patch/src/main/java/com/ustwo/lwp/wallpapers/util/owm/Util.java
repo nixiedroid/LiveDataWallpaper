@@ -71,5 +71,24 @@ public class Util {
         }
     }
 
+    static class UrlBuilder {
+        private URL url;
+        public static UrlBuilder builder(){
+            return new UrlBuilder();
+        }
+        public UrlBuilder concat(URL url){
+            this.url = url;
+            return this;
+        }
+        public UrlBuilder concat(String str){
+            if (this.url == null) {
+                this.url = constantURL(str);
+            } else url =  concatenateURL(url,str);
+            return this;
+        }
 
+        public URL build(){
+            return url;
+        }
+    }
 }
